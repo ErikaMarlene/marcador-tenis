@@ -1,0 +1,25 @@
+/* Autora: Erika Garcia
+Funcionalidad: definir el tamaño, font, margen y que tenga el pointer, del botón*/
+.boton-tenis {
+  /* width: 190px;
+  height: 37px;
+  font-size: 1.3rem;
+  margin: 7px;
+  Al pasar el cursor se convierte en manita para que sepan que se puede apretar
+  cursor: pointer; */
+  background-color: #5fad62;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.boton:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

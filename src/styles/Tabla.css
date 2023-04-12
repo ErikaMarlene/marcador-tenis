@@ -1,0 +1,23 @@
+/* Autora: Erika García
+Funcionalidad: Crea una tabla de 4 x 2 con el espacio de 1fr para 
+cada división con un padding, background y especificaciones para las imágenes*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: #2e865a;
+    padding: 10px;
+  }
+  .grid-special{
+    background-color: #d8f0e4;
+    padding: 10px;
+  }
+
+  .grid-image {
+    width: 60px;
+    height: 32px;
+  }

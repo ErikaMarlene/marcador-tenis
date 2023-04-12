@@ -1,0 +1,13 @@
+/* Autor: Roberto Martínez
+Funcionalidad: definir el tamaño, largo, ancho, color, margen, bordes del recuadro que muestra el marcador de tenis*/
+.puntos-tenis {
+    width: 250px;
+    height: 70px;
+    font-size: 1.3rem;
+    color: aliceblue;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(7, 102, 72);
+    border-radius: 6px;
+    border: 4px solid gray;
+}

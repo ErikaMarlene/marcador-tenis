@@ -1,0 +1,5 @@
+/* Autor: Roberto Martínez
+Funcionalidad: cambia el tamaño del font */
+.titulo-tenis {
+    font-size: 2rem; /* 2 veces el tamaño estándar */
+}
